@@ -4,13 +4,13 @@ import java.util.Arrays;
 
 public class SelectionSort 
 {
-	public static void sort(int[] arr)
+	public static void selectionSort(int[] arr)
 	{
 		for(int i=0;i<arr.length-1;i++)
 		{
-			for(int j=1+i;j<arr.length;j++)
+			for(int j=i+1;j<arr.length;j++)
 			{
-				if(arr[j]<arr[i])
+				if(arr[i]>arr[j])
 				{
 					int temp=arr[i];
 					arr[i]=arr[j];
@@ -24,7 +24,12 @@ public class SelectionSort
 	{
 		int[] arr= {21, 11, 43, 16, 18, 14};
 		System.out.println(Arrays.toString(arr));
-		sort(arr);
+		selectionSort(arr);
 		System.out.println(Arrays.toString(arr));
 	}
+	
+	
+	
+	
+	
 }

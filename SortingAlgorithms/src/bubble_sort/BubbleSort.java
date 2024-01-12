@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class BubbleSort 
 {
-	public static void sort(int[] arr)
+	public static void bubbleSort(int[] arr)
 	{
 		for(int i=0;i<arr.length-1;i++)
 		{
@@ -23,7 +23,9 @@ public class BubbleSort
 	public static void main(String[] args) 
 	{
 		int[] arr= {19,12, 17,14,16,11};
-		sort(arr);
+		bubbleSort(arr);
 		System.out.println(Arrays.toString(arr));
 	}
+	
+	
 }

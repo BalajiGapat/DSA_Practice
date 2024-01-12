@@ -1,6 +1,6 @@
 package fibonaci;
 
-public class Fibonacci2 
+public class FiboByRecursion 
 {
 	public static int fibo(int pos)
 	{
@@ -18,7 +18,7 @@ public class Fibonacci2
 //		{
 //			System.out.print(fibo(i)+" ");
 //		}
-		
+			
 	}
 	
 }
