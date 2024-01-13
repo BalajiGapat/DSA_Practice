@@ -24,13 +24,11 @@ public class FindAllPrimeFsctors
 		{
 			if(isPrime(i))
 			{
-				
 				while(num%i==0) // 164 82,41 // 41, 1
 				{
 					list.add(i);
 					num=num/i;
 				}
-				
 			}
 		}// time complexity=O(n*log(n))
 		
