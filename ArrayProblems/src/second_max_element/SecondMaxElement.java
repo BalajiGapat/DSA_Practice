@@ -35,7 +35,7 @@ public class SecondMaxElement
 	
 	public static void main(String[] args)
 	{
-		int[] arr= {11,43,556,88,32,66,88,456};
+		int[] arr= {11,43,556,88,556,66,88,456};
 		secondMax(arr);
 	}
 }
