@@ -23,6 +23,7 @@ public class ReverseString
 		Scanner sc=new Scanner(System.in);
 		System.out.println("please enter String str: ");
 		String str=sc.nextLine();
+		
 		System.out.println("Original String: "+str);
 		
 		String revStr=reverseStr(str);
